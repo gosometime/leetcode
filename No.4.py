@@ -1,5 +1,8 @@
-
-
+'''
+说明：
+要求时间复杂度为O(log(m+n))
+'''
+# 未达到复杂度要求
 def my_findMedianSortedArrays(nums1:list, nums2:list):
 
     nums = nums1 + nums2
@@ -18,10 +21,6 @@ def my_findMedianSortedArrays(nums1:list, nums2:list):
         min_num = min(nums)
         nums.remove(max_num)
         nums.remove(min_num)
-
-
-
-
 
 if __name__ == '__main__':
     nums1 = [1,2]
